@@ -29,6 +29,9 @@ dependencies {
 	testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
 	// https://mvnrepository.com/artifact/io.rest-assured/rest-assured
 	testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '4.4.0'
+	// https://mvnrepository.com/artifact/com.google.guava/guava
+	implementation group: 'com.google.guava', name: 'guava', version: '30.1.1-jre'
+
 
 
 

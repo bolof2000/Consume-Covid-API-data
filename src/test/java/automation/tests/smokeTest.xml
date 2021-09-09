@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="automation.CustomListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Volumes/Projects/microservice-apps/covid-data/src/test/java/automation/tests/LoginTests.java">
+        <classes>
+            <class name="automation.tests.LoginTests">
+                <methods>
+                    <include name="negloginTest"/>
+                    <include name="psvloginTest"/>
+                    <include name="failedloginTest"/>
+                    <include name="positiveTest"/>
+                    <include name="negativeTest"/>
+                    <include name="covidDataTest"/>
+                    <include name="alertFirstTest"/>
+                    <include name="positiveFailedTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
